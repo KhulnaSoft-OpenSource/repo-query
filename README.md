@@ -175,4 +175,4 @@ We have a commit utility called [@khulnasoft-opensource/conventional-commit](htt
 
 ## ⚖️ LICENSE
 
-MIT © [Open Sauced](LICENSE)
+MIT © [KhulnaSoft OpenSource](LICENSE)
