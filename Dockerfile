@@ -35,4 +35,4 @@ COPY . .
 RUN cargo build --release --all
 
 ENV ORT_DYLIB_PATH=./target/release/libonnxruntime.so
-CMD ["./target/release/open-sauced-repo-query"]
+CMD ["./target/release/khulnasoft-opensource-repo-query"]
