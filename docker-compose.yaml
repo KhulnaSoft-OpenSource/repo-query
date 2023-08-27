@@ -8,7 +8,7 @@ services:
       - "6334:6334"
 
   repo-query:
-    image: open-sauced-repo-query:latest
+    image: khulnasoft-opensource-repo-query:latest
     environment:
       # Consume env variables from a .env file found in the same directory
       # as this docker-compose file. See ".env.example" for more details.
