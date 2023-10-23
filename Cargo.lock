@@ -1705,6 +1705,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "minreq"
+version = "2.11.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cb3371dfc7b772c540da1380123674a8e20583aca99907087d990ca58cf44203"
+dependencies = [
+ "log",
+ "once_cell",
+ "rustls",
+ "rustls-webpki 0.101.4",
+ "serde",
+ "serde_json",
+ "webpki-roots 0.25.2",
+]
+
+[[package]]
 name = "mio"
 version = "0.8.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1867,14 +1882,13 @@ dependencies = [
 
 [[package]]
 name = "openai-api-rs"
-version = "0.1.15"
+version = "2.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ecc9e31347d94db4fa54ef5b272c97a039b126e07efa9c54dad33ca39f1b637f"
+checksum = "1870ecd0c6c4f044b0adfb5288de141b89019bd46d6715188c1932eee2cbb331"
 dependencies = [
- "reqwest",
+ "minreq",
  "serde",
  "serde_json",
- "tokio",
 ]
 
 [[package]]
